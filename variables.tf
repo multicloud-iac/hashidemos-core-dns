@@ -7,12 +7,12 @@ variable "namespace" {
   description = "Name of the zone e.g. demo"
 }
 
-variable "created-by" {
+variable "created_by" {
   description = "Tag used to identify resources created programmatically by Terraform"
   default     = "terraform"
 }
 
-variable "hosted-zone" {
+variable "hosted_zone" {
   description = "The name of the dns zone on Route 53 that will be used as the master zone "
 }
 
