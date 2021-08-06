@@ -34,7 +34,7 @@ variable "create_azure_dns_zone" {
 
 variable "azure_location" {
   description = "The azure location to deploy the DNS service"
-  default     = "West Europe"
+  default     = "westus"
 }
 
 # GCP
