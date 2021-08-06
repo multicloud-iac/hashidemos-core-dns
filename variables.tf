@@ -24,6 +24,11 @@ variable "create_aws_dns_zone" {
   default     = "false"
 }
 
+variable "aws_region" {
+  description = "The region to create resources."
+  default     = "us-west-2"
+}
+
 # Azure
 
 variable "create_azure_dns_zone" {
